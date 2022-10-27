@@ -9,7 +9,7 @@ while gun:
     bullet = random.choice(gun)
     if bullet == 1:
         print("you dead")
-        #os.remove(path)
+        os.remove(path)
         break
     gun.remove(bullet)
     
